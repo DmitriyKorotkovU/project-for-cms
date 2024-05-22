@@ -1,1 +1,31 @@
 /* здесь используйте глобальные селекторы img, body, html и так далее */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $primary-font;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: $primary-text-color;
+}
+
+img {
+  display: block;
+  object-fit: contain;
+  height: auto;
+}
+
+.line-break-span {
+  display: block;
+}
+
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
