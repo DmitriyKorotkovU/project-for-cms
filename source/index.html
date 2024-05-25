@@ -36,5 +36,43 @@
         </div>
       </section>
     </main>
+    <footer class="page-footer">
+      <div class="wrapper">
+        <form class="comment-form" action="https://echo.htmlacademy.ru/" method="get">
+          <h2 class="comment-form__title">Оставить отзыв</h2>
+          <textarea class="comment-form__comment comment-input" name="comment" placeholder="Расскажите, что вы думаете о проекте" required></textarea>
+          <input class="comment-form__name comment-input" type="text" placeholder="Ваше имя" required>
+          <div class="comment-form__submit-wrapper">
+            <button class="comment-form__button" type="submit">Отправить</button>
+            <p class="comment-form__description">Отзыв будет добавлен после проверки модератором</p>
+          </div>
+        </form>
+        <ul class="comments">
+          <li class="comment">
+            <div class="comment__user-avatar-wrapper">
+              <img class="comment__user-avatar" src="images/users/user-1.jpg" width="50" height="50" alt="Аватар комментатора.">
+            </div>
+            <p class="comment__user-name">Иван Грачев</p>
+            <p class="comment__user-comment">Очень самобытный и необычный проект.</p>
+          </li>
+          <li class="comment">
+            <div class="comment__user-avatar-wrapper">
+              <img class="comment__user-avatar" src="images/users/user-2.jpg" width="50" height="50" alt="Аватар комментатора.">
+            </div>
+            <p class="comment__user-name">Мария Рачинская</p>
+            <p class="comment__user-comment">Мне особенно понравилось решение лестничных клеток.
+              Кружки вообще очень стильные!</p>
+          </li>
+          <li class="comment">
+            <div class="comment__user-avatar-wrapper">
+              <img class="comment__user-avatar" src="images/users/user-3.jpg" width="50" height="50" alt="Аватар комментатора.">
+            </div>
+            <p class="comment__user-name">Светлана</p>
+            <p class="comment__user-comment">Очень нравится, что в городе развиваются такие проекты. Надеюсь, такие проекты скоро будут не только в частных домах, но и в кафе, музеях, театрах.
+              Я бы сходила!</p>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
