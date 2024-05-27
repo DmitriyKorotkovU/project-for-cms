@@ -1,0 +1,50 @@
+.wpcf7-textarea {
+  display: block;
+  width: 100%;
+  padding: 17px;
+  // margin-bottom: 10px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  background-color: $input-color;
+  resize: none;
+}
+
+.wpcf7-textarea::placeholder {
+  color: $primary-text-color;
+  opacity: 0.3;
+}
+
+.wpcf7-text {
+  padding: 17px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  background-color: $input-color;
+}
+
+.wpcf7-text::placeholder {
+  color: $primary-text-color;
+  opacity: 0.3;
+}
+
+.wpcf7-submit {
+  display: block;
+  width: 285px;
+  min-height: 64px;
+  padding: 18px 40px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  background-color: $brand-color;
+  cursor: pointer;
+}
