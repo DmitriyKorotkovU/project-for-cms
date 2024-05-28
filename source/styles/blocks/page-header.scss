@@ -1,0 +1,19 @@
+.page-header {
+  background-color: $page-header-color;
+  color: $primary-text-color;
+  border: 1px solid $border-color;
+}
+
+.page-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-header__logo-wrapper {
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+.page-header__menu {
+  padding: 17px 0;
+}
